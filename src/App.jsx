@@ -4,8 +4,8 @@ import Irene from './assets/image-irene.jpg'
 import Anne from './assets/image-anne.jpg'
 export const App = () => {
   return (
-    <main className="flex flex-col items-center gap-4 max-w-[1120px]">
-      <div className="flex items-center flex-wrap w-full justify-between">
+    <main className="flex flex-col items-center gap-4 max-w-[1120px] m-auto">
+      <div className="flex items-center flex-wrap w-full justify-center">
         <aside className="flex flex-col gap-4 w-full items-center md:items-start max-w-[412px]">
           <h1 className="text-very-dark-magenta text-4xl font-bold text-center leading-7 mt-6 max-w-[312px] sm:max-w-[412px] sm:text-[3.25rem] sm:leading-[3.12rem] sm:text-start">
             10,000+ of our users love our products.
