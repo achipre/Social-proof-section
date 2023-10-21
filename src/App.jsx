@@ -7,7 +7,7 @@ export const App = () => {
     <main className="flex flex-col items-center gap-4 sm:gap-12 md:gap-[70px] max-w-[1126px] m-auto">
       <div className="flex items-center flex-wrap w-full justify-center lg:justify-between sm:mx-4">
         <aside className="flex flex-col gap-4 w-full items-center md:items-start max-w-[412px]">
-          <h1 className="text-very-dark-magenta text-4xl font-bold text-center leading-7 mt-20 max-w-[312px] sm:max-w-[412px] sm:text-[3.25rem] sm:leading-[3.12rem] sm:text-start md:[letter-spacing:-2px] md:text-[3.5rem] md:leading-[48px]">
+          <h1 className="text-very-dark-magenta text-4xl font-bold text-center leading-7 mt-20 lg:mt-0 max-w-[312px] sm:max-w-[412px] sm:text-[3.25rem] sm:leading-[3.12rem] sm:text-start md:[letter-spacing:-2px] md:text-[3.5rem] md:leading-[48px]">
             10,000+ of our users love our products.
           </h1>
           <p className="text-[.9375rem] text-center text-dark-grayish-magenta mt-2 max-w-[412px] sm:text-lg sm:text-start sm:leading-[1.6rem]">
@@ -16,7 +16,7 @@ export const App = () => {
           </p>
         </aside>
 
-        <aside className="flex flex-col items-center md:items-end gap-4 w-full max-w-[446px] md:mt-8">
+        <aside className="flex flex-col items-center md:items-end gap-4 w-full max-w-[446px] md:mt-[10px]">
           <div className="bg-light-grayish-magenta p-3 rounded-lg mt-4 md:mt-0 max-w-[446px] w-full sm:flex sm:gap-8 sm:items-end sm:pl-[34px] sm:py-5 lg:mr-24">
             <span className="flex justify-center pb-[10px] sm:pb-0 gap-[6px] sm:gap-[8px]">
               <img src={Star} alt="estrella" />
