@@ -8,10 +8,16 @@ export default {
         'soft-pink': 'hsl(333, 80%, 67%)',
         'dark-grayish-magenta': 'hsl(303, 10%, 53%)',
         'light-grayish-magenta': 'hsl(300, 24%, 96%)',
-        'white': 'hsl(0, 0%, 100%)'
+        white: 'hsl(0, 0%, 100%)'
       },
       fontFamily: {
-        'primary': ['League Spartan', 'sans-serif']
+        primary: ['League Spartan', 'sans-serif']
+      },
+      backgroundImage: {
+        topMovil: "url('./assets/bg-pattern-top-mobile.svg')",
+        bottomMovil: "url('./assets/bg-pattern-bottom-mobile.svg')",
+        bottomDesktop: "url('./assets/bg-pattern-bottom-desktop.svg')",
+        topDesktop: "url('./assets/bg-pattern-top-desktop.svg')"
       }
     }
   },
